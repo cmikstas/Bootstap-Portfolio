@@ -1,3 +1,20 @@
+/** container header **/
+.headRow
+{
+    background-color: #393f4d
+}
+
+/** container body **/
+.divBodyColor
+{
+    background-color: #f6f5f3
+}
+
+.navBarContainer
+{
+    background-color: #f6f5f3;
+}
+
 /** index.html **/
 
 .list-item-navbar {
@@ -9,12 +26,13 @@
 }
 
 .h3-header {
-    color: #4aaaa5
+    color: #f4f8f8
 }
 
 /* Sticky Footer Classes */
 .footer-all {
-    border-top: 4px solid #4aaaa5;
+    border-top: 4px solid #9e363a;
+    background-color: #393f4d;
 }
 
 html,
@@ -34,7 +52,7 @@ body {
 
 
 .background-image {
-    background-image: url("../assets/images/united-squares-negative/united-squares-negative.png");
+    background-image: url("../assets/images/ocean.jpg");
 
 }
 
@@ -83,4 +101,37 @@ body {
 
 .card {
     border: 0px;
+}
+
+/** portfolio.html updated **/
+.portfolio-caption
+{
+    position: absolute;
+    bottom: 5%;
+    font-family: Georgia, Times, serif;
+    background-color: rgba(17, 27, 70, .9);
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    height: 4.5rem;
+}
+.portfolio-img
+{
+    max-width: 100%;
+    text-align: center;
+    border-radius: 5%;
+}
+.portfolio-link
+{
+    position: relative;
+    display: inline-block;
+    border: 3px solid #666666;
+    border-radius: 6%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.portfolio-link:hover
+{
+    box-shadow: 0 0 0 .5rem #1e1e8a;
 }
